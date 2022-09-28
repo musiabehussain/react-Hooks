@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import ClassCounter from './components/classCounter';
+import Hookcounter from './components/Hookcounter';
+import Hookcounter2 from './components/Hookcounter2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <ClassCounter/>
+   <Hookcounter/>
+   <h1>hooks counter  2 </h1>
+   <Hookcounter2/>
     </div>
   );
 }
